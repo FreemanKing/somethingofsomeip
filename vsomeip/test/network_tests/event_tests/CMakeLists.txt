@@ -9,11 +9,11 @@ project(event_tests LANGUAGES CXX)
 
 # Configure necessary files into the build directory.
 set(configuration_files
-    event_test_master.json
+    event_test_slave.json
     event_test_master_starter.sh
     event_test_slave_starter.sh
-    event_test_slave_tcp.json
-    event_test_slave_udp.json
+    event_test_master_tcp.json
+    event_test_master_udp.json
 )
 configure_files("${configuration_files}")
 
